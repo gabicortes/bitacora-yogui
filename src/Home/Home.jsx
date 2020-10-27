@@ -7,6 +7,7 @@ import ContactMe from "./ContactMe";
 import Foot from "./Foot";
 
 function Home() {
+  console.log("un cambio");
   return (
     <div>
       <NavBar />
