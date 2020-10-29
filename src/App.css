@@ -1,8 +1,16 @@
+body {
+  font-family: "Poiret One", cursive;
+}
+
 .navBarDiv {
   height: 100px;
   display: flex;
   justify-content: space-between;
-  margin: 15px;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.5);
+  top: 0;
 }
 
 .logoImage {
@@ -12,13 +20,16 @@
 }
 
 .buttonNavBar {
-  font-family: "Poiret One", cursive;
   font-weight: bold;
   padding: 15px;
 }
 
 .buttonsNavBar {
-  margin: 30px 15px 0 0;
+  margin: 0px 15px 0 0;
+}
+
+.buttonNavBar:hover {
+  cursor: pointer;
 }
 
 .home1Div {
@@ -26,6 +37,7 @@
   justify-content: space-between;
   background-color: #f9ac93;
   height: 500px;
+  padding-top: 100px;
 }
 
 .foxImage {
@@ -34,7 +46,6 @@
   margin: 80px 130px 0 0;
 }
 .slogan {
-  font-family: "Poiret One", cursive;
   color: white;
   text-align: left;
   font-weight: bold;
@@ -56,7 +67,6 @@
 }
 
 .MartuWhoIsShe {
-  font-family: "Poiret One", cursive;
   color: black;
   font-weight: 700;
   margin: 110px;
@@ -66,25 +76,39 @@
 .divServices {
   display: flex;
   justify-content: space-around;
-  background-color: #b7b7b7;
-  height: 450px;
+  background-color: #fafafa;
+  height: 600px;
 }
 
 .yogaService {
-  background: url("./yogaposition.png");
+  background: url(https://img.techpowerup.org/201027/martu.jpg);
 }
 
 .communityService {
-  background: url(https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+  background: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
 }
 
 .buttonServices {
   border-radius: 100%;
   height: 250px;
   width: 250px;
-  font-family: "Poiret One", cursive;
   font-size: 31px;
-  margin: 80px 120px;
+  border: 1px solid black;
+  font-weight: bold;
+  font-family: "Poiret One", cursive;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.buttonServices:hover {
+  cursor: pointer;
+}
+
+.buttonAshtanga {
+  margin-top: 40px;
+}
+
+.buttonCommunity {
+  margin-top: 300px;
 }
 
 .divContactMe {
@@ -93,11 +117,9 @@
   flex-direction: column;
   align-items: center;
   height: 300px;
-  font-family: "Poiret One", cursive;
 }
 
 .titleContactMe {
-  font-family: "Poiret One", cursive;
   font-weight: 700;
   font-size: xx-large;
   margin-top: 25px;
@@ -120,8 +142,9 @@
 
 .codedBy {
   text-align: center;
-  font-family: "Poiret One", cursive;
+
   margin: 20px;
+  font-size: x-small;
 }
 
 .iconSocialMedia {

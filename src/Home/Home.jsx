@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import NavBar from "../UI/NavBar";
 import Home1 from "./Home1";
 import MartuPresentation from "./MartuPresentation";
@@ -7,14 +7,31 @@ import ContactMe from "./ContactMe";
 import Foot from "./Foot";
 
 function Home() {
-  console.log("un cambio");
+  const servicesRef = useRef(null);
+  const sobreMiRef = useRef(null);
+  const contactRef = useRef(null);
+
   return (
     <div>
-      <NavBar />
+      <NavBar
+        firstButton={"Sobre Mi"}
+        secondButton={"Mis servicios"}
+        thirdButton={"Contacto"}
+        contactRef={contactRef}
+        servicesRef={servicesRef}
+        sobreMiRef={sobreMiRef}
+      />
       <Home1 />
-      <MartuPresentation />
-      <Services />
-      <ContactMe />
+      <div ref={sobreMiRef}>
+        <MartuPresentation />
+      </div>
+
+      <div ref={servicesRef}>
+        <Services />
+      </div>
+      <div ref={contactRef}>
+        <ContactMe />
+      </div>
       <Foot />
     </div>
   );
