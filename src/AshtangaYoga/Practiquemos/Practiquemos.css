@@ -1,0 +1,34 @@
+.divPractiquemos {
+  margin-top: 200px;
+  height: 500px;
+  background-color: #f9ac93;
+}
+
+.practiquemosTitle {
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 40px;
+  padding-top: 40px;
+  margin-bottom: 5px;
+  text-align: center;
+  margin-bottom: 120px;
+  color: #fafafa;
+}
+
+.timetable {
+  color: #fafafa;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 125px 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.timetable2 {
+  margin-top: 60px;
+}
+
+hr {
+  width: 400px;
+  border-top: 1px solid #fafafa;
+}

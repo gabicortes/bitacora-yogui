@@ -15,17 +15,16 @@ function Home() {
     <div>
       <NavBar
         firstButton={"Sobre Mi"}
+        firstSectionRef={sobreMiRef}
         secondButton={"Mis servicios"}
         thirdButton={"Contacto"}
         contactRef={contactRef}
-        servicesRef={servicesRef}
-        sobreMiRef={sobreMiRef}
+        secondSectionRef={servicesRef}
       />
       <Home1 />
       <div ref={sobreMiRef}>
         <MartuPresentation />
       </div>
-
       <div ref={servicesRef}>
         <Services />
       </div>

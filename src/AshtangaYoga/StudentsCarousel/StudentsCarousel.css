@@ -1,0 +1,38 @@
+#github-link {
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+}
+
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: black;
+  font-weight: 500;
+  height: 500px;
+  max-height: 100vh;
+}
+
+.keen-slider__slide img {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  margin: 100px;
+}
+
+.keen-slider__slide span {
+  font-size: 24px;
+  width: 50%;
+}
+
+.keen-slider {
+  display: flex;
+  justify-content: space-between;
+}

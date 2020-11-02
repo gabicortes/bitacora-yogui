@@ -1,0 +1,21 @@
+.ashtangaYogaDiv {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  height: 300px;
+  padding-top: 80px;
+}
+
+.TextAshtanga span {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 100px;
+}
+
+.TextAshtanga p {
+  text-align: left;
+  width: 600px;
+  font-size: 20px;
+  margin: 100px;
+  margin-top: 20px;
+}
