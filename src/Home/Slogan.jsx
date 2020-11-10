@@ -1,7 +1,7 @@
 import React from "react";
 import zorro from "./zorro.png";
 
-function Home1() {
+function Slogan() {
   return (
     <div className="home1Div">
       <p className="slogan">
@@ -16,4 +16,4 @@ function Home1() {
   );
 }
 
-export default Home1;
+export default Slogan;

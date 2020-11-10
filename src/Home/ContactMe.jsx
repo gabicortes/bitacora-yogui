@@ -3,11 +3,9 @@ import { IoLogoFacebook } from "react-icons/io";
 import { IoLogoInstagram } from "react-icons/io";
 import { IoLogoYoutube } from "react-icons/io";
 import { TiMail } from "react-icons/ti";
-// import { GrMailOption } from "react-icons/gr";
 import { FaWhatsapp } from "react-icons/fa";
 
 function ContactMe() {
-
   return (
     <div className="divContactMe">
       <div>

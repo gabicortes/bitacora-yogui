@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./logo.png";
+import { Link } from "react-router-dom";
 
 const scrollToRef = (ref) =>
   window.scrollTo({
@@ -21,13 +22,15 @@ function NavBar(props) {
     scrollToRef(props.thirdSectionRef);
   }
 
-  function handleFourthButtonClick (){
+  function handleFourthButtonClick() {
     scrollToRef(props.fourthSectionRef);
   }
 
   return (
-    <div id="navbar" className="navBarDiv">
-      <img className="logoImage" src={logo} alt="logo" />
+    <div id="navbar" className="navBarDiv" style={{ opacity: props.opacity }}>
+      <Link to="./">
+        <img className="logoImage" src={logo} alt="logo" />
+      </Link>
       <div className="buttonsNavBar">
         <span className="buttonNavBar" onClick={handleFirstButtonClick}>
           {props.firstButton}

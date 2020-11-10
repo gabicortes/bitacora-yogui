@@ -1,0 +1,19 @@
+.divQueEsCommunity {
+  padding-top: 100px;
+  height: 500px;
+  position: relative;
+  text-align: center;
+}
+
+.textCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f4787f;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 55px;
+  background-color: white;
+}
+

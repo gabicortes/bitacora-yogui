@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import NavBar from "../UI/NavBar";
-import Home1 from "./Home1";
+import Slogan from "./Slogan";
 import MartuPresentation from "./MartuPresentation";
 import Services from "./Services";
 import ContactMe from "./ContactMe";
@@ -17,11 +17,11 @@ function Home() {
         firstButton={"Sobre Mi"}
         firstSectionRef={sobreMiRef}
         secondButton={"Mis servicios"}
-        thirdButton={"Contacto"}
-        contactRef={contactRef}
         secondSectionRef={servicesRef}
+        thirdButton={"Contacto"}
+        thirdSectionRef={contactRef}
       />
-      <Home1 />
+      <Slogan />
       <div ref={sobreMiRef}>
         <MartuPresentation />
       </div>
