@@ -1,10 +1,12 @@
 import React from "react";
 import "./Portada.css";
+import foto1 from "./foto3.jpg";
 import { Wave } from "react-animated-text";
 
 function Portada() {
   return (
     <div className="divQueEsCommunity">
+      <img src={foto1} className="imagenFondo" />
       <div className="textCenter">
         <Wave
           className="comunique"

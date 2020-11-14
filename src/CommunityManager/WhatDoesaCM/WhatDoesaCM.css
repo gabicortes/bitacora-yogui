@@ -1,0 +1,52 @@
+.yoComoComunityHagoEsto {
+  text-align: center;
+  padding: 40px 60px;
+  font-size: 24px;
+}
+
+.martuServices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.spanLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 50px;
+  font-size: 30px;
+}
+
+.spanRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 400px;
+  margin-left: 25px;
+}
+
+.planSocialMedia {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.gestionRedesSociales {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.asesoramientosPersonalizados {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+
+.spanTitulo {
+  font-weight: bold;
+  margin-bottom: 3px;
+}

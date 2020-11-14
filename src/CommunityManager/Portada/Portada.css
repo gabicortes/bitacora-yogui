@@ -1,19 +1,25 @@
 .divQueEsCommunity {
   padding-top: 100px;
-  height: 500px;
-  position: relative;
+  height: 680px;
   text-align: center;
 }
 
 .textCenter {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #f4787f;
   font-weight: bold;
-  padding: 20px;
+  padding: 13px;
   font-size: 55px;
   background-color: white;
+  border-radius: 25px;
+  opacity: 0.8;
 }
 
+.imagenFondo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,71 @@
+.clientsDiv {
+  background-color: #faac94;
+  height: 500px;
+}
+
+.titleMisClientes {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  width: 100%;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+}
+
+.hexagonImg {
+  height: 220px;
+  width: 250px;
+}
+
+.divImg {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 220px;
+  width: 250px;
+  transition: transform 0.5s ease;
+}
+
+.container:hover {
+  transform: scale(1.1);
+  /*box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.5);*/
+}
+
+.container1 {
+  margin-top: 30px;
+}
+
+.container2 {
+  margin: 120px 80px 0 80px;
+}
+
+.container3 {
+  margin-top: 30px;
+}
+
+.clientName {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.logoClientes {
+  height: 100px;
+  width: 100px;
+}
+
+.logoKarina {
+  height: auto;
+  width: 100px;
+}
