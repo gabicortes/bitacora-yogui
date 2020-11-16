@@ -6,19 +6,33 @@ function MartuPresentation() {
     <div className="PresentationDiv">
       <img className="fotoMartu" src={martuyoga} alt="fotoMartu" />
       <p className="MartuWhoIsShe">
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
-        eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-        voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
-        corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
-        quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-        voluptas nulla pariatur?"
+        <span className="holaSoyMartu">¡Hola! Soy Martu. </span>
+        <span>
+          Hace algunos años conocí la práctica de Yoga y me sumergí en su
+          filosofía.
+          <br />
+          Al día de hoy, soy practicante y profesora certificada de Ashtanga
+          Vinyasa Yoga/RYT 500hs YAI. Profundicé mi práctica con Maestros
+          Certificados KPAYI (Mysore, India). Kino MacGregor, Ramiro Ventura y
+          María di Masso son algunos de ellos.
+          <br />
+          <br />
+          La práctica me permitió conocer a muchos seres maravillosos, y entre
+          ellos, a toda la familia luleå Mindful. Leo, fundador de la empresa,
+          vio en mí algo que hasta ese día yo no había visto: una gran capacidad
+          para crear comunidades y comunicar. Allí nace una nueva Martu: como
+          Community Manager. Este mundo que se abrió me llenó de oportunidades.
+          Recuerdo una de mis primeras sesiones (allá por el 2016) con mi
+          astróloga donde charlábamos sobre mi pasión y profesión en mi carta
+          natal. ¿Adivinen que? "Lo tuyo es la comunicación, la mediación".
+          <br />
+          <br />
+          Acá estoy, COMUNICANDO y contándoles un poco de mi. A través de redes,
+          a través de yoga, siempre comunicando.
+          <br />
+          <br />
+          ¡Gracias por leerme!
+        </span>
       </p>
     </div>
   );
