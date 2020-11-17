@@ -1,9 +1,10 @@
 import React from "react";
 import zorro from "./zorro.png";
+import "./Slogan.css";
 
 function Slogan() {
   return (
-    <div className="home1Div">
+    <div className="sloganDiv">
       <p className="slogan">
         Cultivando una
         <br />

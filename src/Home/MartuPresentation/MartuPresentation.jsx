@@ -1,5 +1,6 @@
 import React from "react";
 import martuyoga from "./martuyoga.png";
+import "./MartuPresentation.css";
 
 function MartuPresentation() {
   return (

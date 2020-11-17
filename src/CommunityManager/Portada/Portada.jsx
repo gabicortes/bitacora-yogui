@@ -1,6 +1,6 @@
 import React from "react";
 import "./Portada.css";
-import foto1 from "./foto3.jpg";
+import foto1 from "./foto3bis.jpg";
 import { Wave } from "react-animated-text";
 
 function Portada() {

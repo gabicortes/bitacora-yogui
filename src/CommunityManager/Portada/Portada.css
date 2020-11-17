@@ -1,12 +1,11 @@
 .divQueEsCommunity {
   padding-top: 100px;
-  height: 680px;
   text-align: center;
 }
 
 .textCenter {
   position: absolute;
-  top: 55%;
+  top: 64%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #f4787f;

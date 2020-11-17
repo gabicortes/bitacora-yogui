@@ -1,0 +1,43 @@
+.divContactMe {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 0 70px;
+}
+
+.titleContactMe {
+  font-weight: 700;
+  font-size: xx-large;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.whatsappMartu {
+  letter-spacing: 1px;
+}
+
+.contactMartu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactMartu span {
+  margin: 20px 0;
+}
+
+.iconSocialMedia {
+  color: black;
+  font-size: 29px;
+}
+
+.mailMartu {
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 1px;
+}
+
+.mailMartu div {
+  margin-left: 2px;
+}

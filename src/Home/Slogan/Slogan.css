@@ -1,0 +1,22 @@
+.sloganDiv {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9ac93;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.foxImage {
+  height: 360px;
+  width: 360px;
+  margin-right: 113px;
+  margin-top: 79px;
+}
+.slogan {
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  font-size: xxx-large;
+  margin-left: 150px;
+  margin-top: 140px;
+}

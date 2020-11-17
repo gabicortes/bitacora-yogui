@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import "./Services.css";
 
 function Services() {
   const [backgroundType, setBackgroundType] = useState("none");

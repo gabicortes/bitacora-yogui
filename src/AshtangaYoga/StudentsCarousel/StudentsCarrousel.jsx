@@ -3,6 +3,8 @@ import { useKeenSlider } from "keen-slider/react";
 import "./StudentsCarousel.css";
 import "keen-slider/keen-slider.min.css";
 import gabi from "./gabi.jpeg";
+import chica2 from "./chica2.jpeg";
+import nico from "./nico.jpeg";
 
 function StudentsCarrousel() {
   const [pause, setPause] = React.useState(false);
@@ -59,62 +61,47 @@ function StudentsCarrousel() {
           </span>
         </div>
         <div className="keen-slider__slide number-slide2">
-          <img src="https://static.nationalgeographic.es/files/styles/image_3200/public/01-giraffe-spots-nationalgeographic_2424106.jpg?w=1600&h=900" />
+          <img src={chica2} />
           <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque
-            tortor, imperdiet id ligula sit amet, elementum consequat neque.
-            Quisque pretium erat nulla, ac convallis mauris finibus sed. Proin
-            vehicula, felis sed sollicitudin sagittis, diam velit mattis ante,
-            ut tempus dolor massa id lectus. Sed faucibus, justo nec lobortis
-            faucibus, turpis nisi molestie mauris, eu porttitor ligula ante eget
-            orci. Sed convallis non dui sed dictum. Duis sit amet aliquet lacus,
-            a finibus nisi. Mauris in condimentum dolor. Aenean scelerisque
-            libero at nisi cursus dignissim.
+            El yoga para mi es más que la práctica en el mat. Si bien tiene
+            varios beneficios físicos, el mundo qué hay detrás del yoga es muy
+            grande.
+            <br />
+            Te invita a cuestionar lo que sabías, a adquirir nuevos
+            conocimientos y a encontrar herramientas para el día a día.
+            <br />
+            <br />
+            Juana.
           </span>
         </div>
         <div className="keen-slider__slide number-slide3">
           <img src="https://i.pinimg.com/originals/80/04/12/800412661240d62b8677aae31ee418ab.jpg" />
           <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque
-            tortor, imperdiet id ligula sit amet, elementum consequat neque.
-            Quisque pretium erat nulla, ac convallis mauris finibus sed. Proin
-            vehicula, felis sed sollicitudin sagittis, diam velit mattis ante,
-            ut tempus dolor massa id lectus. Sed faucibus, justo nec lobortis
-            faucibus, turpis nisi molestie mauris, eu porttitor ligula ante eget
-            orci. Sed convallis non dui sed dictum. Duis sit amet aliquet lacus,
-            a finibus nisi. Mauris in condimentum dolor. Aenean scelerisque
-            libero at nisi cursus dignissim.
+            La práctica de Ashtanga me ayuda a mantenerme equilibrado física y
+            mentalmente. Gané mucha flexibilidad, equilibrio y mejoré los
+            dolores provocados por la postura laboral.
+            <br />
+            También cambió la forma de interpretar lo que le hace bien a mi
+            cuerpo, llevándome a una alimentación más saludable.
+            <br />
+            <br />
+            Facu.
           </span>
         </div>
         <div className="keen-slider__slide number-slide4">
-          <img src="https://cdni.rt.com/actualidad/public_images/b38/b38e0f8efc90cabf68f570e42cffd8f4_article.jpg" />
+          <img src={nico} />
           <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque
-            tortor, imperdiet id ligula sit amet, elementum consequat neque.
-            Quisque pretium erat nulla, ac convallis mauris finibus sed. Proin
-            vehicula, felis sed sollicitudin sagittis, diam velit mattis ante,
-            ut tempus dolor massa id lectus. Sed faucibus, justo nec lobortis
-            faucibus, turpis nisi molestie mauris, eu porttitor ligula ante eget
-            orci. Sed convallis non dui sed dictum. Duis sit amet aliquet lacus,
-            a finibus nisi. Mauris in condimentum dolor. Aenean scelerisque
-            libero at nisi cursus dignissim.
+            Espero que estén aprendiendo tanto como yo sobre el ego, sobre la
+            omnipotencia, sobre olvidarnos que lugar ocupamos en cada espacio.
+            Todos estamos revalorizando nuestra existencia. <br />
+            La tierra otra vez pregunta y hay que responder. <br />
+            Gracias Martu por la paciencia y la garra que le pones a cada clase.
+            <br />
+            <br />
+            Nico.
           </span>
         </div>
         <div className="keen-slider__slide number-slide5">
-          <img src="https://cdni.rt.com/actualidad/public_images/b38/b38e0f8efc90cabf68f570e42cffd8f4_article.jpg" />
-          <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque
-            tortor, imperdiet id ligula sit amet, elementum consequat neque.
-            Quisque pretium erat nulla, ac convallis mauris finibus sed. Proin
-            vehicula, felis sed sollicitudin sagittis, diam velit mattis ante,
-            ut tempus dolor massa id lectus. Sed faucibus, justo nec lobortis
-            faucibus, turpis nisi molestie mauris, eu porttitor ligula ante eget
-            orci. Sed convallis non dui sed dictum. Duis sit amet aliquet lacus,
-            a finibus nisi. Mauris in condimentum dolor. Aenean scelerisque
-            libero at nisi cursus dignissim.
-          </span>
-        </div>
-        <div className="keen-slider__slide number-slide6">
           <img src="https://cdni.rt.com/actualidad/public_images/b38/b38e0f8efc90cabf68f570e42cffd8f4_article.jpg" />
           <span>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque

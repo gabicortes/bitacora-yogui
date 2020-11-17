@@ -4,6 +4,7 @@ import { IoLogoInstagram } from "react-icons/io";
 import { IoLogoYoutube } from "react-icons/io";
 import { TiMail } from "react-icons/ti";
 import { FaWhatsapp } from "react-icons/fa";
+import "./ContactMe.css";
 
 function ContactMe() {
   return (

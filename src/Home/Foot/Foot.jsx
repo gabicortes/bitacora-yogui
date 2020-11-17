@@ -1,5 +1,6 @@
 import React from "react";
 import { FaCat } from "react-icons/fa";
+import "./Foot.css";
 
 function Foot() {
   const year = new Date().getFullYear();

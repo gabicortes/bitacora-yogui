@@ -4,8 +4,8 @@ import WhatIsAshtangaYoga from "./WhatIsAshtangaYoga/WhatIsAshtangaYoga";
 import Practiquemos from "./Practiquemos/Practiquemos";
 import StudentsCarrousel from "./StudentsCarousel/StudentsCarrousel";
 import NavBar from "../UI/NavBar";
-import ContactMe from "../Home/ContactMe";
-import Foot from "../Home/Foot";
+import ContactMe from "../Home/ContactMe/ContactMe";
+import Foot from "../Home/Foot/Foot";
 
 function AshtangaYoga() {
   const whatIsAshtangaRef = useRef(null);

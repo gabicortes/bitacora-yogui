@@ -1,5 +1,4 @@
 .divPractiquemos {
-  height: 500px;
   background-color: #f9ac93;
 }
 
@@ -18,9 +17,10 @@
   color: #fafafa;
   display: flex;
   justify-content: space-evenly;
-  margin: 0 125px 40px;
+  margin: 0 125px 0px;
   font-weight: bold;
   font-size: 20px;
+  padding-bottom: 40px;
 }
 
 .timetable2 {
@@ -30,4 +30,10 @@
 hr {
   width: 400px;
   border-top: 1px solid #fafafa;
+}
+
+.iconGoogleMaps {
+  margin-left: 5px;
+  color: white;
+  font-size: 30px;
 }

@@ -3,8 +3,8 @@ import NavBar from "../UI/NavBar";
 import { WhatDoesaCM } from "./WhatDoesaCM/WhatDoesaCM";
 import { Portada } from "./Portada/Portada";
 import { Clients } from "./Clients/clients";
-import ContactMe from "../Home/ContactMe";
-import Foot from "../Home/Foot";
+import ContactMe from "../Home/ContactMe/ContactMe";
+import Foot from "../Home/Foot/Foot";
 
 function CommunityManager() {
   const whatDoesaCMRef = useRef(null);

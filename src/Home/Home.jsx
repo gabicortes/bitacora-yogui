@@ -1,10 +1,10 @@
 import React, { useRef } from "react";
 import NavBar from "../UI/NavBar";
-import Slogan from "./Slogan";
-import MartuPresentation from "./MartuPresentation";
-import Services from "./Services";
-import ContactMe from "./ContactMe";
-import Foot from "./Foot";
+import Slogan from "./Slogan/Slogan";
+import MartuPresentation from "./MartuPresentation/MartuPresentation";
+import Services from "./Services/Services";
+import ContactMe from "./ContactMe/ContactMe";
+import Foot from "./Foot/Foot";
 
 function Home() {
   const servicesRef = useRef(null);
