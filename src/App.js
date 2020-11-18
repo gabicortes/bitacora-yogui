@@ -1,4 +1,3 @@
-import "./App.css";
 import Home from "./Home/Home";
 import CommunityManager from "./CommunityManager/CommunityManager.jsx";
 import AshtangaYoga from "./AshtangaYoga/AshtangaYoga.jsx";

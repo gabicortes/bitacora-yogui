@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "./logo.png";
 import { Link } from "react-router-dom";
+import { TiThMenu } from "react-icons/ti";
 import "./NavBar.css";
 
 const scrollToRef = (ref) =>
@@ -11,20 +12,55 @@ const scrollToRef = (ref) =>
   });
 
 function NavBar(props) {
-  function handleSecondButtonClick() {
-    scrollToRef(props.secondSectionRef);
-  }
+  const [menuIsOpen, setMenuIsOpen] = useState(false);
 
   function handleFirstButtonClick() {
     scrollToRef(props.firstSectionRef);
+    setMenuIsOpen(false);
+  }
+  function handleSecondButtonClick() {
+    scrollToRef(props.secondSectionRef);
+    setMenuIsOpen(false);
   }
 
   function handleThirdButtonClick() {
     scrollToRef(props.thirdSectionRef);
+    setMenuIsOpen(false);
   }
 
   function handleFourthButtonClick() {
     scrollToRef(props.fourthSectionRef);
+    setMenuIsOpen(false);
+  }
+
+  function triggerHamburgerMenu() {
+    setMenuIsOpen((prevValue) => !prevValue);
+  }
+
+  let menu;
+
+  if (menuIsOpen) {
+    menu = (
+      <div className="burgerMenu">
+        <span className="buttonBurgerNavBar" onClick={handleFirstButtonClick}>
+          {props.firstButton}
+        </span>
+        <span className="buttonBurgerNavBar" onClick={handleSecondButtonClick}>
+          {props.secondButton}
+        </span>
+        <span className="buttonBurgerNavBar" onClick={handleThirdButtonClick}>
+          {props.thirdButton}
+        </span>
+        {props.fourthButton && (
+          <span
+            className="buttonBurgerNavBar"
+            onClick={handleFourthButtonClick}
+          >
+            {props.fourthButton}
+          </span>
+        )}
+      </div>
+    );
   }
 
   return (
@@ -46,6 +82,8 @@ function NavBar(props) {
           {props.fourthButton}
         </span>
       </div>
+      <TiThMenu className="burgerMenuButton" onClick={triggerHamburgerMenu} />
+      {menu}
     </div>
   );
 }

@@ -8,7 +8,7 @@
 
 .titleContactMe {
   font-weight: 700;
-  font-size: xx-large;
+  font-size: 34px;
   margin-top: 25px;
   margin-bottom: 5px;
 }
@@ -40,4 +40,19 @@
 
 .mailMartu div {
   margin-left: 2px;
+}
+
+@media (max-width: 480px) {
+  .divContactMe {
+    padding: 30px 0 30px;
+  }
+  .titleContactMe {
+    font-weight: 700;
+    font-size: 23px;
+    margin-top: 14px;
+    margin-bottom: 5px;
+  }
+  .contactMartu {
+    font-size: 9px;
+  }
 }

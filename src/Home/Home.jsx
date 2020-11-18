@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, Fragment } from "react";
 import NavBar from "../UI/NavBar";
 import Slogan from "./Slogan/Slogan";
 import MartuPresentation from "./MartuPresentation/MartuPresentation";
@@ -12,7 +12,7 @@ function Home() {
   const contactRef = useRef(null);
 
   return (
-    <div>
+    <Fragment>
       <NavBar
         firstButton={"Sobre Mi"}
         firstSectionRef={sobreMiRef}
@@ -32,7 +32,7 @@ function Home() {
         <ContactMe />
       </div>
       <Foot />
-    </div>
+    </Fragment>
   );
 }
 

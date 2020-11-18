@@ -16,7 +16,42 @@
   color: white;
   text-align: left;
   font-weight: bold;
-  font-size: xxx-large;
+  font-size: 48px;
   margin-left: 150px;
   margin-top: 140px;
+}
+
+@media (max-width: 800px) {
+  .foxImage {
+    margin-right: 75px;
+    height: 284px;
+    width: 284px;
+  }
+  .slogan {
+    margin-left: 75px;
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 660px) {
+  .foxImage {
+    margin-right: 30px;
+    height: 230px;
+    width: 230px;
+  }
+  .slogan {
+    margin-left: 30px;
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 420px) {
+  .foxImage {
+    margin-right: 30px;
+    height: 180px;
+    width: 180px;
+  }
+  .slogan {
+    font-size: 16px;
+  }
 }

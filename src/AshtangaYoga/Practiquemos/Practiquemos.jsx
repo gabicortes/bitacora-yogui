@@ -7,8 +7,8 @@ function Practiquemos() {
     <div className="divPractiquemos">
       <p className="practiquemosTitle">🧘🏻‍♀️ ¡Practiquemos! 🧘🏻‍♂️</p>
       <div className="timetable">
-        <span>Martes & Jueves</span>
-        <span>8:00 AM</span>
+        <span className="horarioClase">Martes & Jueves</span>
+        <span className="horarioClase">8:00 AM</span>
         <span>
           {" "}
           Nos vemos en
@@ -23,9 +23,10 @@ function Practiquemos() {
       </div>
       <hr />
       <div className="timetable timetable2">
-        <span>Lunes a Viernes</span>
-        <span>6:30 PM</span>
-        <span>Nos vemos en
+        <span className="horarioClase">Lunes a Viernes</span>
+        <span className="horarioClase">6:30 PM</span>
+        <span>
+          Nos vemos en
           <a
             className="iconGoogleMaps"
             target="_blank"

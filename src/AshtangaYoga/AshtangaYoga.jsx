@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, Fragment } from "react";
 import WhatIsYoga from "./WhatIsYoga/WhatIsYoga";
 import WhatIsAshtangaYoga from "./WhatIsAshtangaYoga/WhatIsAshtangaYoga";
 import Practiquemos from "./Practiquemos/Practiquemos";
@@ -14,7 +14,7 @@ function AshtangaYoga() {
   const contactRef = useRef(null);
 
   return (
-    <div>
+    <Fragment>
       <NavBar
         firstButton={"Qué es Ashtanga Yoga"}
         firstSectionRef={whatIsAshtangaRef}
@@ -40,7 +40,7 @@ function AshtangaYoga() {
       </div>
 
       <Foot />
-    </div>
+    </Fragment>
   );
 }
 
