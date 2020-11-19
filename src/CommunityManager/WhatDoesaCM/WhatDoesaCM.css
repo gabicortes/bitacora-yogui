@@ -1,31 +1,40 @@
+.divServicesCM {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+
 .yoComoComunityHagoEsto {
-  text-align: center;
-  padding: 40px 60px;
+  text-align: justify;
+  padding: 0 40px 40px;
   font-size: 24px;
 }
 
 .martuServices {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-content: center;
   align-items: center;
+  padding-top: 40px;
 }
 
 .spanLeft {
+  width: 35px;
+  height: auto;
+}
+
+.firstServiceWrapper {
   display: flex;
-  flex-direction: column;
-  justify-content: left;
-  width: 50px;
-  font-size: 30px;
+  flex-direction: row;
 }
 
 .spanRight {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  width: 400px;
-  margin-left: 25px;
+  width: 482px;
+  margin-left: 55px;
+  padding-bottom: 15px;
 }
 
 .planSocialMedia {
@@ -49,4 +58,54 @@
 .spanTitulo {
   font-weight: bold;
   margin-bottom: 3px;
+  font-size: 22px;
+}
+.spanExplanation {
+  font-size: 18px;
+}
+
+.hyperLinkPlanning {
+  color: black;
+}
+
+@media (max-width: 425px) {
+  .yoComoComunityHagoEsto {
+    text-align: justify;
+    padding: 0 40px 21px;
+    font-size: 21px;
+  }
+  .spanTitulo {
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-size: 18px;
+  }
+  .spanExplanation {
+    font-size: 16px;
+  }
+  .spanRight {
+    width: 321px;
+    margin-left: 28px;
+    padding-bottom: 15px;
+  }
+
+  .spanLeft {
+    width: 28px;
+    height: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .spanRight {
+    width: 288px;
+    margin-left: 28px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .spanRight {
+    width: 244px;
+    margin-left: 28px;
+    padding-bottom: 15px;
+  }
 }

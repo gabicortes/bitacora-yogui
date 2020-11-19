@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.textCenter {
+.textCenterComuniquemonos {
   position: absolute;
   top: 64%;
   left: 50%;
@@ -11,7 +11,7 @@
   color: #f4787f;
   font-weight: bold;
   padding: 13px;
-  font-size: 55px;
+  font-size: 40px;
   background-color: white;
   border-radius: 25px;
   opacity: 0.8;
@@ -21,4 +21,32 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 880px) {
+  .textCenterComuniquemonos {
+    font-size: 35px;
+    top: 57%;
+  }
+}
+
+@media (max-width: 425px) {
+  .textCenterComuniquemonos {
+    font-size: 15px;
+    top: 41%;
+  }
+}
+
+@media (max-width: 375px) {
+  .textCenterComuniquemonos {
+    top: 38%;
+  }
+}
+
+@media (max-width: 425px) {
+  .textCenterComuniquemonos {
+    font-size: 13px;
+    top: 36%;
+    padding: 8px;
+  }
 }

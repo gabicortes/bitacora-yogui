@@ -7,7 +7,7 @@ function Portada() {
   return (
     <div className="divQueEsCommunity">
       <img src={foto1} className="imagenFondo" />
-      <div className="textCenter">
+      <div className="textCenterComuniquemonos">
         <Wave
           className="comunique"
           text="¡COMUNIQUÉMONOS!"

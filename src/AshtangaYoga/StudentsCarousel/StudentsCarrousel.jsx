@@ -5,6 +5,7 @@ import "keen-slider/keen-slider.min.css";
 import gabi from "./gabi.jpeg";
 import chica2 from "./chica2.jpeg";
 import nico from "./nico.jpeg";
+import facu from "./facu1.jpeg";
 
 function StudentsCarrousel() {
   const [pause, setPause] = React.useState(false);
@@ -43,6 +44,20 @@ function StudentsCarrousel() {
   return (
     <>
       <div ref={sliderRef} className="keen-slider">
+        <div className="keen-slider__slide number-slide3">
+          <img src={facu} />
+          <span>
+            La práctica de Ashtanga me ayuda a mantenerme equilibrado física y
+            mentalmente. Gané mucha flexibilidad, equilibrio y mejoré los
+            dolores provocados por la postura laboral.
+            <br />
+            También cambió la forma de interpretar lo que le hace bien a mi
+            cuerpo, llevándome a una alimentación más saludable.
+            <br />
+            <br />
+            Facu.
+          </span>
+        </div>
         <div className="keen-slider__slide number-slide1">
           <img src={gabi} alt="fotoDeGabi" />
           <span>
@@ -74,20 +89,7 @@ function StudentsCarrousel() {
             Juana.
           </span>
         </div>
-        <div className="keen-slider__slide number-slide3">
-          <img src="https://i.pinimg.com/originals/80/04/12/800412661240d62b8677aae31ee418ab.jpg" />
-          <span>
-            La práctica de Ashtanga me ayuda a mantenerme equilibrado física y
-            mentalmente. Gané mucha flexibilidad, equilibrio y mejoré los
-            dolores provocados por la postura laboral.
-            <br />
-            También cambió la forma de interpretar lo que le hace bien a mi
-            cuerpo, llevándome a una alimentación más saludable.
-            <br />
-            <br />
-            Facu.
-          </span>
-        </div>
+
         <div className="keen-slider__slide number-slide4">
           <img src={nico} />
           <span>
@@ -99,20 +101,6 @@ function StudentsCarrousel() {
             <br />
             <br />
             Nico.
-          </span>
-        </div>
-        <div className="keen-slider__slide number-slide5">
-          <img src="https://cdni.rt.com/actualidad/public_images/b38/b38e0f8efc90cabf68f570e42cffd8f4_article.jpg" />
-          <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque
-            tortor, imperdiet id ligula sit amet, elementum consequat neque.
-            Quisque pretium erat nulla, ac convallis mauris finibus sed. Proin
-            vehicula, felis sed sollicitudin sagittis, diam velit mattis ante,
-            ut tempus dolor massa id lectus. Sed faucibus, justo nec lobortis
-            faucibus, turpis nisi molestie mauris, eu porttitor ligula ante eget
-            orci. Sed convallis non dui sed dictum. Duis sit amet aliquet lacus,
-            a finibus nisi. Mauris in condimentum dolor. Aenean scelerisque
-            libero at nisi cursus dignissim.
           </span>
         </div>
       </div>
