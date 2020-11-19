@@ -16,9 +16,9 @@
   color: white;
   text-align: left;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 62px;
   margin-left: 150px;
-  margin-top: 140px;
+  margin-top: 135px;
 }
 
 @media (max-width: 800px) {
@@ -52,6 +52,7 @@
     width: 180px;
   }
   .slogan {
-    font-size: 16px;
+    font-size: 21px;
+    margin-top: 121px;
   }
 }

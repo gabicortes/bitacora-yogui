@@ -23,7 +23,7 @@ function WhatIsYoga() {
           <br />
           La palabra Yoga (YUG en sánscrito) significa Unión: nos enseña a
           ponernos en contacto con nosotros mismos, a través del cuerpo y de la
-          respiración. En los{" "}
+          respiración. En los {""}
           <a
             className="hyperlinksRelatedAshtanga"
             style={{
