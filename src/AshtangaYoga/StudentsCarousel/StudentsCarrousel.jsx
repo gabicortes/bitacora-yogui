@@ -6,6 +6,7 @@ import gabi from "./gabi.jpeg";
 import chica2 from "./chica2.jpeg";
 import nico from "./nico.jpeg";
 import facu from "./facu1.jpeg";
+import Carousel from "react-bootstrap/Button";
 
 function StudentsCarrousel() {
   const [pause, setPause] = React.useState(false);
@@ -13,6 +14,7 @@ function StudentsCarrousel() {
   const [sliderRef, slider] = useKeenSlider({
     loop: true,
     duration: 1000,
+    controls: true,
     dragStart: () => {
       setPause(true);
     },

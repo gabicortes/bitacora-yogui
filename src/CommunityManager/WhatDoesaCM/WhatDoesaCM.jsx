@@ -9,20 +9,29 @@ function WhatDoesaCM() {
       <p className="yoComoComunityHagoEsto">
         Como Community Manager, y como su nombre lo dice, mi trabajo es ayudarte
         a comunicar a través de tu plataformas online. Tanto si tu deseo es
-        aumentar tus ventas, tu visibilidad en redes o crear una comuni dad de
+        aumentar tus ventas, tu visibilidad en redes o crear una comunidad de
         seguidores de tu emprendimiento. <br />
         <br />
         Dentro de la filosofía del Yoga, aprendí a leer a otros a través de su
         cuerpo, entender sus necesidades y a transmitir lo que me han enseñado
         para acompañarlos en su proceso de sanación. Para mi, ser CM representa
-        lo mismo: analizo tu presencia actual y crear un plan de interacción con
-        tu comunidad. <br />
+        lo mismo: analizo tu presencia actual y a crear un plan de interacción
+        con tu comunidad. <br />
         <br />
         En el Yoga soy el nexo entre los maestros y mis alumnos. Como Community
         Manager soy el nexo entre vos y tus clientes.. <br />
         <br />
-        Te invito a descargar mi planning de contenidos de manera gratuita
-        haciendo click <a className="hyperLinkPlanning" href="www.google.com"> aquí</a>.
+        Te invito a descargar mi planner de contenidos de manera gratuita
+        haciendo click{" "}
+        <a
+          className="hyperLinkPlanning"
+          href="https://drive.google.com/file/d/1Gs_p9dhZ1aLXU8EIBScR-9x3Ciu1DkCB/view?usp=sharing"
+          target="_blank"
+        >
+          {" "}
+          aquí
+        </a>
+        .
       </p>
       <div className="martuServices">
         <div className="divServiciosMartu">
