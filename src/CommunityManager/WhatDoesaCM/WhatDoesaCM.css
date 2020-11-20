@@ -69,6 +69,9 @@
 }
 
 @media (max-width: 425px) {
+  .divServicesCM {
+    font-family: "M PLUS 1p", sans-serif;
+  }
   .yoComoComunityHagoEsto {
     text-align: justify;
     padding: 0 40px 21px;
@@ -100,6 +103,9 @@
     margin-left: 28px;
     padding-bottom: 15px;
   }
+  .divServicesCM {
+    font-family: "M PLUS 1p", sans-serif;
+  }
 }
 
 @media (max-width: 320px) {
@@ -107,5 +113,8 @@
     width: 244px;
     margin-left: 28px;
     padding-bottom: 15px;
+  }
+  .divServicesCM {
+    font-family: "M PLUS 1p", sans-serif;
   }
 }

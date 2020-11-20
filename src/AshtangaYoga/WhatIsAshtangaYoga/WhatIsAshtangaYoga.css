@@ -39,6 +39,7 @@
 
 @media (max-width: 800px) {
   .ashtangaYogaDiv {
+    font-family: "M PLUS 1p", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
