@@ -14,6 +14,7 @@
 .photoInstagram {
   height: auto;
   width: 220px;
+  object-fit: cover;
   padding: 9px;
   background-color: #faac94;
   margin-bottom: 36px;
@@ -36,3 +37,13 @@
 .logoInstagram {
   padding-top: 5px;
 }
+
+@media (max-width: 768px) {
+  .photoInstagram {
+    height: 220px;
+    width: 220px;
+    object-fit: cover;
+  }
+}
+
+
