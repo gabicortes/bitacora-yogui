@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./InstagramPhotos.css";
-import { IoLogoInstagram } from "react-icons/io";
 
 function InstagramPhotos() {
   const [photos, setPhotos] = useState([]);

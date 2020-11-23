@@ -16,8 +16,12 @@ function NavBar(props) {
   if (menuIsOpen) {
     menu = (
       <div className="burgerMenu">
-        <span className="buttonBurgerNavBar">{props.firstButton}</span>
-        <span className="buttonBurgerNavBar">{props.secondButton}</span>
+        <Link to={props.firstButtonLink} className="buttonBurgerNavBar">
+          {props.firstButtonText}
+        </Link>
+        <Link to={props.secondButtonLink} className="buttonBurgerNavBar">
+          {props.secondButtonText}
+        </Link>
       </div>
     );
   }

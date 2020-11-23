@@ -72,12 +72,9 @@
 }
 
 @media (max-width: 425px) {
-  .divServicesCM {
-    font-family: "M PLUS 1p", sans-serif;
-  }
   .yoComoComunityHagoEsto {
-    text-align: justify;
-    padding: 0 40px 21px;
+    text-align: left;
+    padding: 0 0 40px;
     font-size: 21px;
   }
   .spanTitulo {
@@ -98,16 +95,22 @@
     width: 28px;
     height: auto;
   }
+  .divServicesCM {
+    margin: 40px 0;
+  }
 }
 
 @media (max-width: 375px) {
+  .yoComoComunityHagoEsto {
+    padding: 0 0 40px;
+  }
   .spanRight {
     width: 288px;
     margin-left: 28px;
     padding-bottom: 15px;
   }
   .divServicesCM {
-    font-family: "M PLUS 1p", sans-serif;
+    margin: 20px 0px;
   }
 }
 
@@ -118,6 +121,6 @@
     padding-bottom: 15px;
   }
   .divServicesCM {
-    font-family: "M PLUS 1p", sans-serif;
+    margin: 20px 0;
   }
 }
