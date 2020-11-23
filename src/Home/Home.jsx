@@ -3,6 +3,7 @@ import NavBar from "../UI/NavBar";
 import Slogan from "./Slogan/Slogan";
 import MartuPresentation from "./MartuPresentation/MartuPresentation";
 import Services from "./Services/Services";
+import { InstagramPhotos } from "./InstagramPhotos/InstagramPhotos";
 import ContactMe from "./ContactMe/ContactMe";
 import Foot from "./Foot/Foot";
 
@@ -28,6 +29,7 @@ function Home() {
       <div ref={servicesRef}>
         <Services />
       </div>
+      <InstagramPhotos />
       <div ref={contactRef}>
         <ContactMe />
       </div>
