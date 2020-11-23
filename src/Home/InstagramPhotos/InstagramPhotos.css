@@ -18,16 +18,18 @@
   background-color: #faac94;
   margin-bottom: 36px;
   border-radius: 24px;
+  transition: transform 0.5s ease;
 }
 
 .photoInstagram:hover {
-  transform: rotate(20deg);
+  transform: rotate(5deg);
 }
 
 .bitacoraYoguiInstagram {
   text-align: center;
   font-size: 34px;
-  padding-top: 40px;
+  padding-top: 80px;
+  padding-bottom: 44px;
 }
 
 .logoInstagram {

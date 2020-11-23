@@ -19,6 +19,8 @@
 .buttonNavBar {
   font-weight: bold;
   padding: 15px;
+  text-decoration: none;
+  color: black;
 }
 
 .buttonsNavBar {

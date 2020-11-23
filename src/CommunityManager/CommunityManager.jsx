@@ -7,31 +7,19 @@ import ContactMe from "../Home/ContactMe/ContactMe";
 import Foot from "../Home/Foot/Foot";
 
 function CommunityManager() {
-  const whatDoesaCMRef = useRef(null);
-  const clientsRef = useRef(null);
-  const contactMeRef = useRef(null);
-
   return (
     <div>
       <NavBar
-        firstButton={"Mis servicios"}
-        firstSectionRef={whatDoesaCMRef}
-        secondButton={"Clientes"}
-        secondSectionRef={clientsRef}
-        thirdButton={"Contacto"}
-        thirdSectionRef={contactMeRef}
+        firstButtonText={"Home"}
+        firstButtonLink={"./"}
+        secondButtonText={"Ashtanga Yoga"}
+        secondButtonLink={"./ashtangayoga"}
         opacity={0.95}
       />
       <Portada />
-      <div ref={whatDoesaCMRef}>
-        <WhatDoesaCM />
-      </div>
-      <div ref={clientsRef}>
-        <Clients />
-      </div>
-      <div ref={contactMeRef}>
-        <ContactMe />
-      </div>
+      <WhatDoesaCM />
+      <Clients />
+      <ContactMe />
       <Foot />
     </div>
   );

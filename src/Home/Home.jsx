@@ -8,31 +8,20 @@ import ContactMe from "./ContactMe/ContactMe";
 import Foot from "./Foot/Foot";
 
 function Home() {
-  const servicesRef = useRef(null);
-  const sobreMiRef = useRef(null);
-  const contactRef = useRef(null);
-
   return (
     <Fragment>
       <NavBar
-        firstButton={"Sobre Mi"}
-        firstSectionRef={sobreMiRef}
-        secondButton={"Mis servicios"}
-        secondSectionRef={servicesRef}
-        thirdButton={"Contacto"}
-        thirdSectionRef={contactRef}
+        firstButtonText={"Ashtanga Yoga"}
+        firstButtonLink={"/ashtangayoga"}
+        secondButtonText={"Community Manager"}
+        secondButtonLink={"/communitymanager"}
       />
       <Slogan />
-      <div ref={sobreMiRef}>
-        <MartuPresentation />
-      </div>
-      <div ref={servicesRef}>
-        <Services />
-      </div>
+      <MartuPresentation />
+      <Services />
       <InstagramPhotos />
-      <div ref={contactRef}>
-        <ContactMe />
-      </div>
+      <ContactMe />
+
       <Foot />
     </Fragment>
   );
