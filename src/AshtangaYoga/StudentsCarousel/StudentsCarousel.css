@@ -28,6 +28,7 @@
 .keen-slider {
   display: flex;
   justify-content: space-between;
+  font-family: "Quattrocento Sans", sans-serif;
 }
 
 @media (max-width: 1000px) {

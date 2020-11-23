@@ -7,7 +7,6 @@ function InstagramPhotos() {
   const [photos, setPhotos] = useState([]);
 
   useEffect(async () => {
-    // corre una vez y al principio
     const response = await axios.get(
       `https://us-central1-bitacora-yogui.cloudfunctions.net/photos`
     );

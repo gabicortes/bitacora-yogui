@@ -24,6 +24,11 @@
   font-size: 16px;
 }
 
+.textMartuPresentation {
+  font-family: "Quattrocento Sans", sans-serif;
+  letter-spacing: 1.5px;
+}
+
 .holaSoyMartu {
   margin-bottom: 30px;
   font-size: 24px;

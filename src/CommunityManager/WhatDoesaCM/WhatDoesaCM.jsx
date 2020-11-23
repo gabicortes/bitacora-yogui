@@ -38,7 +38,7 @@ function WhatDoesaCM() {
           <div className="firstServiceWrapper">
             <FaCalendarCheck className="spanLeft" />
             <div className="spanRight">
-              <span className="spanTitulo">PLAN SOCIAL MEDIA.</span>
+              <span className="spanTitulo">Plan Social Media.</span>
               <p className="spanExplanation">
                 Análisis del posicionamiento actual del negocio en plataformas
                 digitales, definición de objetivos, creación de estrategias y
@@ -49,7 +49,7 @@ function WhatDoesaCM() {
           <div className="firstServiceWrapper">
             <MdPhoneIphone className="spanLeft" />
             <div className="spanRight">
-              <span className="spanTitulo">GESTION DE REDES SOCIALES.</span>
+              <span className="spanTitulo">Gestión de Redes Sociales.</span>
               <p className="spanExplanation">
                 Puesta en marcha del plan Social Media a través de un planner de
                 contenidos.
@@ -59,7 +59,7 @@ function WhatDoesaCM() {
           <div className="firstServiceWrapper">
             <FaTools className="spanLeft" />
             <div className="spanRight">
-              <span className="spanTitulo">ASESORAMIENTOS PERSONALIZADOS.</span>
+              <span className="spanTitulo">Asesoramientos personalizados.</span>
               <p className="spanExplanation">
                 Te enseño a utilizar herramientas de comunicación (apps, ideas
                 creativas, lectura de estadísticas, etc) para que puedas hacer

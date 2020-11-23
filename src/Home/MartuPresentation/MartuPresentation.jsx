@@ -8,7 +8,7 @@ function MartuPresentation() {
       <img className="fotoMartu" src={martuyoga} alt="fotoMartu" />
       <p className="MartuWhoIsShe">
         <span className="holaSoyMartu">¡Hola! Soy Martu. </span>
-        <span>
+        <span className="textMartuPresentation">
           Hace algunos años conocí la práctica de Yoga y me sumergí en su
           filosofía.
           <br />

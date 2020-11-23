@@ -1,13 +1,14 @@
 .divServicesCM {
   display: flex;
   flex-direction: column;
-  padding: 40px 20px;
+  padding: 40px 67px;
 }
 
 .yoComoComunityHagoEsto {
-  text-align: justify;
+  text-align: left;
   padding: 0 40px 40px;
   font-size: 24px;
+  font-family: "Quattrocento Sans", sans-serif;
 }
 
 .martuServices {
@@ -56,12 +57,14 @@
 }
 
 .spanTitulo {
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 3px;
   font-size: 22px;
 }
 .spanExplanation {
   font-size: 18px;
+  font-weight: 700;
+  font-family: "Quattrocento Sans", sans-serif;
 }
 
 .hyperLinkPlanning {

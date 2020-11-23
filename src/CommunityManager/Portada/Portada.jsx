@@ -10,7 +10,7 @@ function Portada() {
       <div className="textCenterComuniquemonos">
         <Wave
           className="comunique"
-          text="¡COMUNIQUÉMONOS!"
+          text="¡Comuniquémonos!"
           speed="6"
           iterations={2}
         />
