@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./InstagramPhotos.css";
+import { IoLogoInstagram } from "react-icons/io";
 
 function InstagramPhotos() {
   const [photos, setPhotos] = useState([]);
@@ -17,7 +18,21 @@ function InstagramPhotos() {
 
   return (
     <div>
-      <div className="bitacoraYoguiInstagram">#bitacorayogui</div>
+      <div className="wrapperTitleAPI">
+        <a
+          href="https://www.instagram.com/bitacorayogui.martu/"
+          target="_blank"
+          className="bitacoraYoguiInstagram"
+        >
+          #bitacorayogui #
+        </a>
+        <a
+          href="https://www.instagram.com/bitacorayogui.martu/"
+          className="instagramLogoSectionAPI bitacoraYoguiInstagram"
+        >
+          <IoLogoInstagram />
+        </a>
+      </div>
       <div className="instagramPhotosWrapper">
         {photos.map((photo) => (
           <a className="photosOneByOne" href={photo.permalink} target="_blank">

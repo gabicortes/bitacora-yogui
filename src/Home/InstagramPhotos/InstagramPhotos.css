@@ -28,14 +28,23 @@
 }
 
 .bitacoraYoguiInstagram {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.wrapperTitleAPI {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   text-align: center;
   font-size: 34px;
   padding-top: 80px;
   padding-bottom: 44px;
 }
 
-.logoInstagram {
-  padding-top: 5px;
+.instagramLogoSectionAPI {
+  padding-top: 3px;
 }
 
 @media (max-width: 768px) {
