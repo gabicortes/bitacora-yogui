@@ -2,7 +2,7 @@ import Home from "./Home/Home";
 import CommunityManager from "./CommunityManager/CommunityManager.jsx";
 import AshtangaYoga from "./AshtangaYoga/AshtangaYoga.jsx";
 import ScrollToTop from "./ScrollToTop";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (

@@ -6,7 +6,7 @@ import gabi from "./gabi.jpeg";
 import chica2 from "./chica2.jpeg";
 import nico from "./nico.jpeg";
 import facu from "./facu1.jpeg";
-import Carousel from "react-bootstrap/Button";
+import mili from "./mili.jpeg";
 
 function StudentsCarrousel() {
   const [pause, setPause] = React.useState(false);
@@ -103,6 +103,19 @@ function StudentsCarrousel() {
             <br />
             <br />
             Nico.
+          </span>
+        </div>
+        <div className="keen-slider__slide number-slide4">
+          <img src={mili} />
+          <span>
+            Buscaba algo que me ayude a bajar un cambio, conocer mi cuerpo y
+            disfrutar el momento, y lo encontré en Ashtanga Yoga. Al día de hoy
+            me sigue ayudando a ser consciente del hoy. <br />
+            Además de ser muy completo como ejercicio, más allá de como haya
+            sido mi día, siempre salgo de la clase sintiéndome mejor.
+            <br />
+            <br />
+            Mili.
           </span>
         </div>
       </div>
