@@ -1,5 +1,5 @@
 import React from "react";
-import martuyoga from "./martuyoga.png";
+import martuyoga from "./martuPhoto.jpg";
 import "./MartuPresentation.css";
 
 function MartuPresentation() {

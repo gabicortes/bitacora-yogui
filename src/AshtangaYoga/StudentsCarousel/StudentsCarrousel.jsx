@@ -7,6 +7,7 @@ import chica2 from "./chica2.jpeg";
 import nico from "./nico.jpeg";
 import facu from "./facu1.jpeg";
 import mili from "./mili.jpeg";
+import lopi from "./lopi.jpeg";
 
 function StudentsCarrousel() {
   const [pause, setPause] = React.useState(false);
@@ -116,6 +117,22 @@ function StudentsCarrousel() {
             <br />
             <br />
             Mili.
+          </span>
+        </div>
+        <div className="keen-slider__slide number-slide4">
+          <img src={lopi} />
+          <span>
+            Dentro de muy poco se cumplen dos años de haberme animado a saltar
+            en esta práctica -gracias a mi bella hermana. <br />
+            Alguna vez, pensé en abandonar porque los caminos q se abren a
+            medida q una se adentra en la práctica, muchas veces, dan miedo y
+            dolor pero, incluso ahi, siempre volví, de alguna manera, a
+            sostenerme dentro del mat.
+            <br /> Hoy, para mi, la práctica de yoga es un espacio amoroso que
+            me acompaña a habitarme.
+            <br />
+            <br />
+            Lopi.
           </span>
         </div>
       </div>

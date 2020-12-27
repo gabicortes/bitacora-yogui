@@ -36,6 +36,7 @@
   height: 400px;
   width: 400px;
   align-self: center;
+  object-fit: cover;
 }
 
 @media (max-width: 800px) {
