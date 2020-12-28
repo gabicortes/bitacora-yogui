@@ -47,11 +47,19 @@
   padding-top: 3px;
 }
 
+.horizontalLines {
+  display: flex;
+  flex-direction: row;
+}
+
 @media (max-width: 768px) {
   .photoInstagram {
     display: block;
     height: 220px;
     width: 220px;
     object-fit: cover;
+  }
+  .secondHR {
+    display: none;
   }
 }

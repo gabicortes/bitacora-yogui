@@ -43,8 +43,10 @@ function InstagramPhotos() {
             />
           </a>
         ))}
+      </div>
+      <div className="horizontalLines">
         <hr />
-        <hr />
+        <hr className="secondHR"/>
       </div>
     </div>
   );

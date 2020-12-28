@@ -5,7 +5,7 @@
 
 .textCenterComuniquemonos {
   position: absolute;
-  top: 64%;
+  top: calc(50%-100px);
   left: 50%;
   transform: translate(-50%, -50%);
   color: #f4787f;
@@ -26,7 +26,6 @@
 @media (max-width: 880px) {
   .textCenterComuniquemonos {
     font-size: 35px;
-    top: 53%;
   }
 }
 
@@ -45,20 +44,17 @@
 @media (max-width: 576px) {
   .textCenterComuniquemonos {
     font-size: 23px;
-    top: 45%;
   }
 }
 
 @media (max-width: 522px) {
   .textCenterComuniquemonos {
     font-size: 18px;
-    top: 41%;
   }
 }
 
 @media (max-width: 428px) {
   .textCenterComuniquemonos {
     font-size: 15px;
-    top: 32%;
   }
 }
