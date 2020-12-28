@@ -1,11 +1,12 @@
 .divQueEsCommunity {
-  padding-top: 100px;
+  margin-top: 100px;
   text-align: center;
+  position: relative;
 }
 
 .textCenterComuniquemonos {
   position: absolute;
-  top: calc(50%-100px);
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #f4787f;
@@ -55,6 +56,7 @@
 
 @media (max-width: 428px) {
   .textCenterComuniquemonos {
-    font-size: 15px;
+    font-size: 18px;
+    padding: 13px 7px;
   }
 }
