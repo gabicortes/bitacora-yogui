@@ -7,7 +7,7 @@ function Foot() {
 
   return (
     <div className="codedBy">
-      {year} Coded by Gabi Cortés <FaCat />
+      {year} Coded by Kittyscripts <FaCat />
     </div>
   );
 }
