@@ -29,7 +29,7 @@ function Services() {
           onMouseOver={handleOverYoga}
           onMouseOut={handleOutYoga}
         >
-          Ashtanga
+          Clases de
           <br />
           Yoga
         </button>
